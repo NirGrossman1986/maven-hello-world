@@ -40,4 +40,6 @@ jobs:
           context: .
           push: true
           tags: nirgross86/hello-world-maven:latest
+    - name: run docker
+      uses: docker://registry.hub.docker.com/nirgross86/hello-world-maven:latest
 
